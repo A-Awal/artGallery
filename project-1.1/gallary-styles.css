@@ -1,0 +1,237 @@
+:root{
+    --brown:#D5966C;
+    --black: #151515;
+    --dark-gray: #444444;
+    --white: #FFFFFF;
+}
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 96px;
+}
+.medium-heading{font-size: 60px;}
+.small-heading{font-size: 36px;}
+
+
+p{
+    font-family: 'Outfit', sans-serif;
+    font-size: 22px;
+}
+
+
+html{
+    /* background-color: aqua; */
+    width: 100vw;
+    overflow-x: hidden;
+}
+body{
+    width: 100vw;
+    /* background-color: #7a7777; */
+    margin: 0px;
+    overflow-x: hidden;
+    font-family: 'Outfit', sans-serif;
+}
+#img-hero-phone{ display:none ;}
+#img-hero-tab{ display:none ;}
+
+
+.img-phone{display: none;}
+.img-tab{display: none;}
+
+
+#container-1{
+margin: auto;
+padding: 0;
+width: 1440px;
+
+
+
+
+}
+header{
+    position: relative;
+    top: 0;
+}
+#main-header-text{
+    width: 1110px;
+    height: calc(160px + 64px + 72px);
+    /* background-color: #ca7676; */
+    position: absolute;
+    left: 165px;
+    top: 190px;
+    
+
+}
+#main-header-text h1{
+    display: block;
+    width: 514px;
+    position: absolute;
+    margin-top: 0;
+    top: 0;
+    left: 0;
+    color: var(--white);
+    box-sizing: border-box;
+    text-align: left;
+    mix-blend-mode: difference;
+    
+    /* background-color: beige; */
+}
+#main-header-text p{
+    display: block;
+    position: absolute;
+    width: 360px;
+    right: 0;
+    top: 0;
+    /* background-color: aqua; */
+}
+#main-header-text span {
+    display: block;
+}
+#black-box{
+    width: 450px;
+    height: 799px;
+    background-color: var(--black);
+    float: left;
+    color: #151515;
+}
+#location-main{
+    position: absolute;
+    width: 260px;
+    height: 72px;
+    background-color: var(--black);
+    color: var(--white);
+    right: 100px;
+    bottom: 0;
+
+    --dir-color:var(--brown);
+}
+#location-main:hover{
+    background-color: var(--brown);
+    --dir-color: var(--black);
+
+}
+#location-dir{
+    width: 56px;
+    height: 72px;
+    background-color: var(--dir-color);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#location-dir:hover{
+    background-color: #151515;
+}
+#location-main-a{
+    display: block;
+    width: fit-content;
+    color: var(--white);
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%, -50%);
+    
+}
+#location-main img{
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#gallery-room{
+    width:1110px;
+    height: 1150px;
+    margin-top: 147px;
+
+    position: relative;
+    left: 144px;
+
+}
+#gallery-room-head{
+    width: 350px;
+    height: 280px;
+    float: left;
+    
+    
+}
+#gallery-room-foot{
+    background-color: var(--black);
+    color: var(--white);
+    width: 445px;
+    height: 377px;
+    box-sizing: border-box;
+    padding: 48px;
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+#img-1{ float: right;}
+#img-2{position: absolute; left: 0; bottom: 0;}
+#img-3{position: absolute; right: 0; top: 430px;}
+
+#main-footer{
+    background-color: var(--black);
+    color: var(--white);
+    width: 1440px;
+    height: 244px;
+    padding: 80px 164px;
+
+    margin-top: 213px;
+    box-sizing: border-box;
+
+    position: relative;
+}
+#main-footer-content{
+    width: 1110px;
+    height: 84px;
+   
+
+}
+#main-footer-text{
+    margin-top: 0;
+    width: 730px; 
+    height: 84px;
+
+    float: left;
+}
+#main-footer-text span{ display: block;}
+
+#main-footer-content h1 { display: block; width: 200px; height: 58px; float: left; margin-top: 0;}
+#main-footer-content p{display:block; width: 430px; height: 84px; float: right; margin-top: 0; font-size: 18px;}
+#social{
+     width: 100px;
+    height: 20px;
+    float: right;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#facebook-el, #instagram-el{
+    width: 20px;
+    height: 20px;
+} 
+#twiter-el{
+    width: 20px;
+    height: 16.5px;
+}
+#facebook:hover, #instagram:hover, #tweeter:hover{
+    accent-color: var(--brown);
+}
+@media screen and (max-width:375px) {
+    #img-hero-phone{ display: block;}
+    .img-phone{display: block;}
+
+    #img-hero-pc{display: none;}
+    .img-pc{display: none;}
+}
+@media screen and (max-width: 769px) {
+    #img-hero-tab{ display: block;}
+    .img-tab{display: block;}
+
+    #img-hero-pc{display: none;}
+    .img-pc{display: none;}
+}
