@@ -115,32 +115,7 @@ header{
     background-color: var(--dir-color);
     position: absolute;
     top: 0;
-    right: 0;
-}
-#location-dir:hover{
-    background-color: #151515;
-}
-#location-main-a{
-    display: block;
-    width: fit-content;
-    color: var(--white);
-    text-align: center;
-    text-decoration: none;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-70%, -50%);
-    
-}
-#location-main img{
-    display: block;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-#gallery-room{
+    right: 
     width:1110px;
     height: 1150px;
     margin-top: 147px;
