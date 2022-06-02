@@ -145,6 +145,7 @@ header{
     color: var(--white);
     text-align: center;
     text-decoration: none;
+    
     position: relative;
     top: 50%;
     left: 50%;
