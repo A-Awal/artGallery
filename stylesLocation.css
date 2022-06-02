@@ -323,7 +323,7 @@ path:hover{
     
 }
 
-@media (min-width: 375px) and (max-width:764.9px){
+@media (max-width:764.9px){
     /* BODY ITEMS ARRANGEMENTS */
     body{
         width: 100%;

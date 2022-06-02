@@ -409,7 +409,7 @@ path:hover{
 
 }
 
-@media screen and (min-width:375px) and (max-width: 767.9px) {
+@media screen and (max-width: 767.9px) {
     
     /* GENERAL PAGE SET-UP */
     #img-hero-phone{display: block;}
