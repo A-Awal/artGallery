@@ -6,13 +6,15 @@
 }
 /* GENERAL SET UP */
 h1{
-    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Big Shoulders Display', sans-serif;
     font-size: 96px;
     line-height: 88px;
+    font-weight: 900;
 }
-.large-heading{font: 70px; line-height: 70px;}
-.medium-heading{font-size: 60px; line-height: 60px;}
-.small-heading{font-size: 36px; line-height: 36px;}
+
+.large-heading{font: 70px; line-height: 70px; font-weight: 900;}
+.medium-heading{font-size: 60px; line-height: 50px; font-weight: 900;}
+.small-heading{font-size: 36px; line-height: 36px; font-weight: 900;}
 
 
 p{
@@ -24,6 +26,7 @@ p{
 .small-p{
     font-size: 18px;
     line-height: 28px;
+    font-weight: 300;
 }
 
 html{
@@ -54,6 +57,9 @@ body{
     width: 1440px;
     position: relative;
 }
+
+/* Styling the main header
+========================== */
 
 header{
     position: relative;
@@ -127,7 +133,7 @@ header{
 #location-dir:hover{
     background-color:var(--black);
 }
-#location-main-a{
+#location-main-a{           /* location text*/
     display: block;
     font-family: 'Big Shoulders Display', cursive;
     font-weight: 800;
@@ -153,6 +159,7 @@ header{
     transform: translate(-50%, -50%);
 }
 
+/* Styling Gallery room */
 #gallery-room{
     width: 1110px;
     height: 1150px;
@@ -164,8 +171,6 @@ header{
     width: 350px;
     height: 280px;
     float: left;
-    
-    
 }
 #gallery-room-foot{
     background-color: var(--black);
@@ -184,6 +189,8 @@ header{
 #img-2{position: absolute; left: 0; bottom: 0;}
 #img-3{position: absolute; right: 0; top: 430px;}
 
+/* Styling the main footer 
+============================*/
 #main-footer{
     background-color: var(--black);
     color: var(--white);
@@ -219,6 +226,9 @@ header{
     line-height: 24px;
 }
 #main-footer-content p{display:block; width: 430px; height: 84px; float: right; margin-top: 0;}
+
+/* styling social media icons */
+
 #social{
      width: 100px;
     height: 20px;
@@ -251,7 +261,8 @@ path:hover{
     .medium-heading{font-size: 50px; line-height: 45px; font-weight: 900;}
     .small-heading{font-size: 36px;}
 
-    /* Arranging body items */
+    /* Arranging body items 
+    =======================*/
     body{
         width: 100vw;
         margin-top: 0; 
@@ -294,14 +305,6 @@ path:hover{
     #img-hero-pc{display: none;}
     .img-pc{display: none;}
 
-    /* Arranging header */
-    #main-header-text{
-        position: absolute;
-        width: 339px;
-        height: 410px;
-        left: 389px;
-        top: 145px;
-    }
     
     /* Arranging Gallery room */
     #gallery-room-head{
@@ -311,8 +314,11 @@ path:hover{
         top: 36px;
         left: 0;
     }
-    #location-main{left: 0;}
 
+    #gallery-room-head h1{
+        margin-top: 0;
+    }
+    
     #gallery-room-foot{
         background-color: var(--black);
         color: var(--white);
@@ -326,6 +332,7 @@ path:hover{
         bottom: 0;
     }
     #gallery-room-foot h1{margin-top: 0;}
+    
     #img-1{
         position: absolute;
         top: 0;
@@ -333,8 +340,19 @@ path:hover{
     }
     #img-2{position: absolute; left: 0; bottom: 0;}
     #img-3{position: absolute; right: 0; top: 411px;}
+
+    /* Arranging main header 
+    =======================*/
+    #main-header-text{
+        position: absolute;
+        width: 339px;
+        height: 410px;
+        left: 389px;
+        top: 145px;
+    }
     #main-header-text h1{
-        position: relative;
+        position: absolute;
+        top: 0;
         font-size: 70px;
         width: 100%;
         mix-blend-mode: normal;
@@ -342,10 +360,18 @@ path:hover{
     }
     #main-header-text p{
         font-size: 18px;
-        position: relative;
+        position: absolute;
+        left: 0;
+        margin-bottom: 0;
+        top: calc(130px + 48px);
         width: 100%;
     }
+
+    #location-main{left: 0; margin-top: 32px;}
     
+    /* Arranging main footer 
+    =========================*/
+
     #main-footer{
         margin-top: -100px;
         width: 100%;
@@ -370,7 +396,7 @@ path:hover{
     }
     
     #main-footer-content h1 { width: 200px; height: 40px; float: left; margin-top: 0;}
-    #main-footer-content p{ width: 281px; height: 104px; float: right; margin-top: 0; font-size: 16px;}
+    #main-footer-content p{ width: 281px; height: 104px; float: right; margin-top: 0; font-size: 16px; text-align: justify;}
     #social{
         width: 100px;
         height: 20px;

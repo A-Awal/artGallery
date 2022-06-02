@@ -4,6 +4,8 @@
     --dark-gray: #444444;
     --white: #FFFFFF;
 }
+/* Styling the Body 
+====================*/
 html{
     width: 100vw;
     overflow-x: hidden;
@@ -42,12 +44,15 @@ h1{
 p{
     font-family: 'Outfit', sans-serif;
     font-size: 22px;
+
 }
 
 #map-pc{margin: 0; position: absolute; top: 0; left: 0;}
 #map-tab{display: none;}
 #map-mobile{display: none;}
 
+/* Styling the adress container 
+================================*/
 #adress{
 position: absolute;
 width: 1440px;
@@ -77,6 +82,9 @@ color: var(--white);
     color: var(--brown);
 }
 
+/* Styling the footer 
+======================*/
+
 #main-footer{
     background-color: var(--brown);
     color: var(--black);
@@ -93,8 +101,6 @@ color: var(--white);
 #main-footer-content{
     width: 1110px;
     height: 84px;
-   
-
 }
 #main-footer-text{
     margin-top: 0;
@@ -113,7 +119,6 @@ color: var(--white);
 
     display: flex;
     justify-content: space-between;
-    background-color: aqua;
 }
 
 #facebook-el, #instagram-el{
@@ -124,10 +129,9 @@ color: var(--white);
     width: 20px;
     height: 16.5px;
 }
-#facebook:hover, #instagram:hover, #tweeter:hover{
-    accent-color: var(--brown);
-}
 
+/* Styling the location elem. 
+===============================*/
 #location-main{
     position: absolute;
     width: 260px;
@@ -135,15 +139,15 @@ color: var(--white);
     left: 156px;
     top: 0;
 
-    background-color: var(--brown);
+    background-color: var(--black);
     color: var(--white);
 
-    --dir-color:var(--black);
+    --dir-color:var(--brown);
 }
 
 #location-main:hover{
-    background-color: var(--black);
-    --dir-color: var(--brown)
+    background-color: var(--brown);
+    --dir-color: var(--black);
 }
 
 #location-dir{
@@ -160,6 +164,7 @@ color: var(--white);
 #location-main-a{
     display: block;
     width: fit-content;
+
     font-family: 'Big Shoulders Display', cursive;
     font-style: normal;
     font-weight: 800;
@@ -169,14 +174,17 @@ color: var(--white);
     color: var(--white);
     text-align: center;
     text-decoration: none;
+
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-30%, -50%);
     
 }
+
 #location-main img{
     display: block;
+
     position: relative;
     top: 50%;
     left: 50%;
@@ -285,7 +293,6 @@ path:hover{
     #main-footer-content{
         width: 689px;
         height: 104px;
-       background-color: salmon;
     }
     #main-footer-text{
         margin-top: 0;
@@ -293,7 +300,6 @@ path:hover{
         height: 104px;
     
         float: left;
-        background-color: rgb(244, 168, 160);
     }    
     #main-footer-content h1 {
          display: block; 
@@ -303,16 +309,14 @@ path:hover{
          line-height: 20px;
          float: left; 
          margin-top: 0;
-         background-color: rgb(181, 118, 111);
-        }
+    }
     #main-footer-content p{
         display:block; 
         width: 281px; 
         height: 104px; 
         float: right; 
         margin-top: 0;
-        margin-left: 50px;
-        background-color: rgb(155, 117, 113);
+        margin-left: 10px;
     }
     
     
@@ -410,6 +414,9 @@ path:hover{
         display: none;
     }
 
+    .brMobile{              /*to overite the above */
+        display: block;
+    }
     #main-footer{
         background-color: var(--brown);
         color: var(--black);
