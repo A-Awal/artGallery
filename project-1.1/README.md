@@ -7,7 +7,7 @@ This project is part of a course requirement. Project 1.2(ART GALLERY )
 - CSS
 
 ## Lessons learnt
-- You cannot not nest a <div> in a <p> use <span>
+- You cannot not nest a Div element in a paragraph elem. use span, instead.
 - In positioning often specify two dimensions
 - The centering of the body element is very inportant in design
 - Positioning a sibling of a relatively positioned object with some offset properties should consider the unseen original position.
